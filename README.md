@@ -1,4 +1,7 @@
 # pokedex_app
+SEE RUNNING CODE HERE (might not be running at all time due to cost of service)  
+https://pokedex-classifier.onrender.com/  
+  
 FastAI implementation of a Resnet50 Pokedex classifier (Gen1) using Starlette web app  
 Based on the following repo: https://github.com/render-examples/fastai-v3  
 See this guide for more details https://course.fast.ai/deployment_render.html  
