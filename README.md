@@ -1,5 +1,5 @@
 # pokedex_app
-FastAI implementation of Pokedex classifier using Starlette web app functionality
+FastAI implementation of a Resnet34 Pokedex classifier using Starlette web app
 
 #### Testing locally
 python app/server.py serve
