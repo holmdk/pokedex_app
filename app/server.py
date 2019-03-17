@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://www.dropbox.com/s/rv762273zbv5hi1/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['charmander', 'mewtwo', 'pikachu', 'squirtle']
+#classes = ['charmander', 'mewtwo', 'pikachu', 'squirtle']
 path = Path(__file__).parent
 
 
