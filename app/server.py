@@ -15,6 +15,7 @@ export_file_name = 'export.pkl'
 classes = ['charmander', 'mewtwo', 'pikachu', 'squirtle']
 path = Path(__file__).parent
 
+
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
 app.mount('/static', StaticFiles(directory='app/static'))
@@ -47,7 +48,7 @@ loop.close()
 @app.route('/')
 def index(request):
     html = path/'view'/'index.html'
-    return HTMLResponse(html.open().read())
+    return HTMLResponse(html.open(encoding="utf8").read())
 
 @app.route('/analyze', methods=['POST'])
 async def analyze(request):
