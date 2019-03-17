@@ -1,3 +1,13 @@
 
 *.jpg
 *.DS_Store
+
+*.png
+
+*.jpeg
+
+*.zip
+
+\.idea/workspace\.xml
+
+
